@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    padding: 1rem 2rem ;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin: 0px 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: rgb(156, 113, 113);
+}
+.search input{
+    padding: 0.5rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+
+    border: none;
+    background-color: rgb(156, 113, 113);
+    /* border:1px solid rgb(156, 113, 113); */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(211, 152, 152);
+
+}
+
+
+/*  Main */
+.main{
+    display: flex;
+    height:auto;
+    /* margin: 1px 0px; */
+
+}
+.sidebar{
+    width: 20%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    overflow-y: scroll;
+
+}
+.mainside{
+    width: 80%;
+    /* background-color: blue; */
+    min-height: 90vh;
+    padding: 0px 3rem ;
+}
+.center{
+    text-align: center;
+}
+.sidebar ul li{
+    cursor: pointer;
+    margin: 5px;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    color: rgb(156, 113, 113);
+    
+
+}
+.sidebar ul{
+    padding: 0px 3rem;
+    list-style:circle;
+    font-size: 1.1rem;
+}
+.sidebar h2{
+    margin: 2rem 0px;
+}
+.heading{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'BIZ UDPMincho', serif;
+}
+.code{
+    background-color: rgba(0,0,0,0.7);
+    color: yellow;
+    padding: 1rem;
+    font-family: 'cascadia code';
+    font-size: 0.9rem;
+}
+.copy{
+    margin: 5px;
+}
