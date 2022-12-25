@@ -78,57 +78,8 @@
     overflow-y: scroll;
 
 }
-.mainside h1{
-    text-align: center;
-    margin: 4rem;
-    font-size: 3rem;
-}
-.ul{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.ul h1{
-    font-size: 2rem;
-    margin: 2rem;
-    
-
-}
-.ul ul{
-    list-style:none;
-    display: flex;
-}
-.ul li a{
-    padding: 1rem;
-    background-color: black;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    font-size: 1.2rem;
-    margin: 0.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.ul li a:hover{
-    transition-duration: 2s;
-    position: relative;
-    bottom: 10px;
-    color: rgb(211, 152, 152);
-    text-decoration: underline;
-
-}
-
-.mainside img{
-    width: 50%;
-    height: 50%;
-}
 .mainside{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+    width: 80%;
     /* background-color: blue; */
     min-height: 90vh;
     padding: 0px 3rem ;
