@@ -1,0 +1,111 @@
+.flex{
+  display:flex;
+}
+
+.justify-center{
+  justify-content:center;
+}
+
+.justify-between{
+  justify-content:space-between;
+}
+
+.justify-around{
+  justify-content:space-around;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.items-center{
+  align-items:center;
+}
+
+.flex-col{
+  flex-direction:column;
+}
+
+.bg-red{
+  background:red;
+}
+
+.flex-end{
+  justify-content:flex-end;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.no-bold{
+  font-weight:lighter;
+}
+
+.text-center{
+text-align: center;
+}
+
+.text-justify{
+text-align: justify;
+}
+
+.text-sm{
+  font-size:0.7rem;
+}
+
+.text-base{
+  font-size:1rem;
+}
+
+.text-lg{
+  font-size:1.3rem;
+}
+
+.text-xl{
+  font-size:1.5rem;
+}
+
+.text-2xl{
+  font-size:2rem;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.m-md{
+  margin:0.5rem;
+}
+
+.mx-min{
+  margin:0px 0.25rem;
+}
+
+.mx-md{
+  margin:0px 0.5rem;
+}
+
+.my-md{
+  margin:0.5rem 0px;
+}
+
+.p-md{
+  padding:0.5rem;
+}
+
+.px-md{
+  padding:0px 0.5rem;
+}
+
+.py-md{
+  padding:0.5rem 0px;
+}

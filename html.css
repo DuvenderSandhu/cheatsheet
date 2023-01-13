@@ -72,6 +72,7 @@
 }
 .sidebar{
     width: 20%;
+    height:89vh;
     background-color: rgba(0,0,0,0.7);
     color: white;
     font-family: 'Inconsolata', monospace;
@@ -80,8 +81,9 @@
 }
 .mainside{
     width: 80%;
+    height:89vh;
+    overflow: scroll;
     /* background-color: blue; */
-    min-height: 90vh;
     padding: 0px 3rem ;
 }
 .center{
@@ -122,4 +124,11 @@
 }
 .copy{
     margin: 5px;
+}
+
+.mainside::-webkit-scrollbar{
+    display: none;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
 }
