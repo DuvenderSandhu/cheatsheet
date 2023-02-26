@@ -109,6 +109,15 @@ text-align: justify;
 .py-md{
   padding:0.5rem 0px;
 }
+
 .list-none{
   list-style:none;
+}
+
+.gap-sm{
+  gap:0.5rem;
+}
+
+.gap-md{
+  gap:1rem;
 }
