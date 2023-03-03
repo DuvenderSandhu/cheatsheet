@@ -114,10 +114,18 @@ text-align: justify;
   list-style:none;
 }
 
-.gap-sm{
+.gap-md{
   gap:0.5rem;
 }
 
-.gap-md{
+.gap-2md{
   gap:1rem;
+}
+
+.wrap{
+  flex-wrap:wrap;
+}
+
+.no-wrap{
+  flex-wrap:nowrap;
 }
